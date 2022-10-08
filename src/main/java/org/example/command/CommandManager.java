@@ -83,7 +83,6 @@ public class CommandManager {
     }
 
     public void makeOutput(List<Order> orderList) {
-        orderList = new ArrayList<>(this.orderList);
         StringBuilder sb = new StringBuilder();
 
         for (Order order : orderList) {
